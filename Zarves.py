@@ -82,7 +82,7 @@ if __name__ == "__main__":
             print(audio)
             os.startfile(os.path.join(audio_file,audio [0]))
 
-        elif "stop the program" or "close the program" in query:
+        elif "stop the program" in query or "close the program" in query:
             speak("thank you sir.")
             break
 
